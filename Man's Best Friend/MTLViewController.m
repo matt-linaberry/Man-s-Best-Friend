@@ -8,6 +8,7 @@
 
 #import "MTLViewController.h"
 #import "MTLDog.h"
+#import "MTLPuppy.h"
 @interface MTLViewController ()
 
 @end
@@ -49,6 +50,14 @@
     self.nameLabel.text = myDog.name;
     self.breedLabel.text = myDog.breed;
     self.lastDogSelected = 0;
+    
+    MTLPuppy *littlePuppy = [[MTLPuppy alloc] init];
+    [littlePuppy bark];
+    littlePuppy.name = @"Bo O.";
+    littlePuppy.breed = @"Portugese Water Dog";
+    littlePuppy.image = [UIImage imageNamed:@"Bo.jpg"];
+    
+    [self.myDogs addObject:littlePuppy];
 }
 
 - (void)didReceiveMemoryWarning
