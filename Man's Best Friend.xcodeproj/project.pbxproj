@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994D6B7519CDCC1700E9A534 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 994D6B7419CDCC1700E9A534 /* St.Bernard.JPG */; };
+		994D6B7919CDCF8C00E9A534 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994D6B7619CDCF8C00E9A534 /* BorderCollie.jpg */; };
+		994D6B7A19CDCF8C00E9A534 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994D6B7719CDCF8C00E9A534 /* ItalianGreyhound.jpg */; };
+		994D6B7B19CDCF8C00E9A534 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 994D6B7819CDCF8C00E9A534 /* JRT.jpg */; };
 		A31DF40419CCC2DD0014631C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31DF40319CCC2DC0014631C /* Foundation.framework */; };
 		A31DF40619CCC2DD0014631C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31DF40519CCC2DD0014631C /* CoreGraphics.framework */; };
 		A31DF40819CCC2DD0014631C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31DF40719CCC2DD0014631C /* UIKit.framework */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		994D6B7419CDCC1700E9A534 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		994D6B7619CDCF8C00E9A534 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		994D6B7719CDCF8C00E9A534 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		994D6B7819CDCF8C00E9A534 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 		A31DF40019CCC2DC0014631C /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31DF40319CCC2DC0014631C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A31DF40519CCC2DD0014631C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +139,10 @@
 		A31DF40A19CCC2DD0014631C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				994D6B7619CDCF8C00E9A534 /* BorderCollie.jpg */,
+				994D6B7719CDCF8C00E9A534 /* ItalianGreyhound.jpg */,
+				994D6B7819CDCF8C00E9A534 /* JRT.jpg */,
+				994D6B7419CDCC1700E9A534 /* St.Bernard.JPG */,
 				A31DF40B19CCC2DD0014631C /* Man's Best Friend-Info.plist */,
 				A31DF40C19CCC2DD0014631C /* InfoPlist.strings */,
 				A31DF40F19CCC2DD0014631C /* main.m */,
@@ -233,7 +245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994D6B7A19CDCF8C00E9A534 /* ItalianGreyhound.jpg in Resources */,
+				994D6B7519CDCC1700E9A534 /* St.Bernard.JPG in Resources */,
+				994D6B7B19CDCF8C00E9A534 /* JRT.jpg in Resources */,
 				A31DF41C19CCC2DD0014631C /* Images.xcassets in Resources */,
+				994D6B7919CDCF8C00E9A534 /* BorderCollie.jpg in Resources */,
 				A31DF40E19CCC2DD0014631C /* InfoPlist.strings in Resources */,
 				A31DF41719CCC2DD0014631C /* Main.storyboard in Resources */,
 			);
@@ -462,6 +478,7 @@
 				A31DF43419CCC2DD0014631C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A31DF43519CCC2DD0014631C /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +487,7 @@
 				A31DF43719CCC2DD0014631C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
