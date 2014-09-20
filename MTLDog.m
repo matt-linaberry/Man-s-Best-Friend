@@ -28,4 +28,27 @@
     self.breed = @"Werewolf";
 }
 
+- (void) barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud
+{
+    if (!isLoud)
+    {
+        for(int bark = 1; bark <= numberOfTimes; bark++)
+        {
+            NSLog(@"Yip yip");
+        }
+    }
+    else
+    {
+        for (int bark = 1; bark <= numberOfTimes; bark++)
+        {
+            NSLog(@"RUFF RUFF!!!");
+        }
+    }
+}
+
+- (int) ageInDogYearsFromAge:(int)regularAge
+{
+    int newAge = regularAge * 7;
+    return newAge;
+}
 @end

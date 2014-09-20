@@ -18,4 +18,6 @@
 - (void) bark;
 - (void) barkANumberOfTimes:(int)numberOfTimes;
 - (void) changeBreedToWerewolf;
+- (void) barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud;
+- (int) ageInDogYearsFromAge:(int)regularAge;
 @end

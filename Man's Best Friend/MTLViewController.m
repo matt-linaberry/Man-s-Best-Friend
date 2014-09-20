@@ -21,11 +21,10 @@
     MTLDog *myDog = [[MTLDog alloc] init];
     myDog.name = @"Fido";
     myDog.breed = @"St. Brenard";
-    myDog.age = 1;
+    myDog.age = 3;
     
-    [myDog bark];
-    
-    [self printHelloWorld];
+    int dogYears = [myDog ageInDogYearsFromAge:myDog.age];
+    NSLog(@"Dog years for %@ is %i", myDog.name, dogYears);
 }
 
 - (void)didReceiveMemoryWarning
