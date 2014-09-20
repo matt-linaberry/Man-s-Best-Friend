@@ -22,15 +22,21 @@
     myDog.name = @"Fido";
     myDog.breed = @"St. Brenard";
     myDog.age = 1;
-    NSLog(@"My dog is named %@ and its' age is %i and the breed is %@", myDog.name, myDog.age, myDog.breed);
-    myDog = nil;
-    NSLog(@"My dog is named %@ and its' age is %i and the breed is %@", myDog.name, myDog.age, myDog.breed);
+    
+    [myDog bark];
+    
+    [self printHelloWorld];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) printHelloWorld
+{
+    NSLog(@"Hello World!");
 }
 
 @end

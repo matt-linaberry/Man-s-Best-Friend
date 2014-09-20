@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MTLViewController : UIViewController
-
+- (void) printHelloWorld;
 @end

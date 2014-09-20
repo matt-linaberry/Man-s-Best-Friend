@@ -14,4 +14,8 @@
 @property (nonatomic, strong) NSString *breed;
 @property (strong, nonatomic) UIImage *image;
 @property (strong, nonatomic) NSString *name;
+
+- (void) bark;
+- (void) barkANumberOfTimes:(int)numberOfTimes;
+- (void) changeBreedToWerewolf;
 @end

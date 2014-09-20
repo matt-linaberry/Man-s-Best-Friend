@@ -9,5 +9,23 @@
 #import "MTLDog.h"
 
 @implementation MTLDog
+- (void) bark
+{
+    NSLog(@"Woof woof!!!");
+
+}
+
+- (void) barkANumberOfTimes:(int)numberOfTimes
+{
+    for (int bark = 1; bark <= numberOfTimes; bark++)
+    {
+        [self bark];
+    }
+}
+
+- (void) changeBreedToWerewolf
+{
+    self.breed = @"Werewolf";
+}
 
 @end
