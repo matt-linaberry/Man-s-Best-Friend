@@ -10,29 +10,29 @@
 	<string>Man's Best Friend</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3027C7AD-6F7E-49E3-8543-8C93DD4384DE</key>
+		<key>905664AFD51F445DC95FAEE22434D6ED9C81A848</key>
 		<string>https://github.com/matt-linaberry/Man-s-Best-Friend.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Man's Best Friend.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3027C7AD-6F7E-49E3-8543-8C93DD4384DE</key>
+		<key>905664AFD51F445DC95FAEE22434D6ED9C81A848</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/matt-linaberry/Man-s-Best-Friend.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3027C7AD-6F7E-49E3-8543-8C93DD4384DE</string>
+	<string>905664AFD51F445DC95FAEE22434D6ED9C81A848</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3027C7AD-6F7E-49E3-8543-8C93DD4384DE</string>
+			<string>905664AFD51F445DC95FAEE22434D6ED9C81A848</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Man-s-Best-Friend</string>
 		</dict>
